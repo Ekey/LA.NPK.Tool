@@ -1,4 +1,4 @@
-# FA.NPK.Tool :see_no_evil:
+# LA.NPK.Tool :see_no_evil:
 Tool for extract NPK archives from game - [LifeAfter](https://www.lifeafter.game)
 
 # NPK ProjectList Information
