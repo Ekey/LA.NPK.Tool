@@ -5,7 +5,6 @@ namespace LA.Unpacker
 {
     class NpkCipher
     {
-        //j2h56ogodh3se=dziaq.|os=5v7!"-234
         public static Byte[] iDecryptData(Byte[] lpBuffer, Int32 dwSize)
         {
             RijndaelManaged TAES = new RijndaelManaged();
