@@ -89,6 +89,7 @@ namespace LA.Unpacker
                             UInt16 wScriptMagic = BitConverter.ToUInt16(lpSrcBuffer, 0);
                             if (wScriptMagic != 0x4974)
                             {
+                                //Decrypt scripts
                                 lpSrcBuffer = NpkCipher.iDecryptData(lpSrcBuffer, lpSrcBuffer.Length);
 
                                 Int64 isCompressedData = BitConverter.ToInt64(lpSrcBuffer, 0);
