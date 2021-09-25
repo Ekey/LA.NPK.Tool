@@ -105,7 +105,10 @@ namespace LA.Unpacker
                                 }
                             }
                         }
-                        File.WriteAllBytes(m_FullPath, lpSrcBuffer);
+                        else
+                        {
+                            File.WriteAllBytes(m_FullPath, lpSrcBuffer);
+                        }
                     }
                     else if (m_Entry.dwCompressionFlag == 2)
                     {
